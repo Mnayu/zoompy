@@ -3,7 +3,7 @@ Zoompy is a Python wrapper for calling the Ergast API, to get data related to Fo
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install zoompy.
 
 ```bash
 pip install zoompy==0.1.3
