@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Zoompy is a Python wrapper for calling the Ergast API, to get data related to Formula 1. It can be used to get the races, results, driver standings, constructors standings and qualifying results from any year or from a custom duration
 
@@ -68,3 +69,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
