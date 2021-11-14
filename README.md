@@ -15,7 +15,7 @@ pip install zoompy==0.1.3
 ```python
 zoompy.races(start_year,end_year)
 
-# To obtain races from 2013
+# To obtain races from 2020
 zoompy.races(2020,2021)
 ```
 ### Obtaining Rounds
@@ -32,6 +32,32 @@ races = zoompy.races(2020,2021)
 rounds = zoompy.get_rounds(races)
 
 results= zoompy.results(rounds)
+
+```
+### Obtaining Driver Standing
+```python
+races = zoompy.races(2020,2021)
+
+rounds = zoompy.get_rounds(races)
+
+results= zoompy.driver_standings(rounds)
+
+```
+### Obtaining Constructor Standing
+```python
+races = zoompy.races(2020,2021)
+
+rounds = zoompy.get_rounds(races)
+
+results= zoompy.constructor_standings(rounds)
+
+```
+### Obtaining Qualifying data
+```python
+zoompy.qualifying(start_year,end_year)
+
+#obtaining qualifying results from 2020
+qualifying= zoompy.qualifying(2020,2021)
 
 ```
 
