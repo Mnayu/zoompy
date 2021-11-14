@@ -6,7 +6,7 @@ Zoompy is a Python wrapper for calling the Ergast API, to get data related to Fo
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install zoompy.
 
 ```bash
-pip install zoompy==0.1.3
+pip install zoompy==1.0.2
 ```
 
 ## Usage
