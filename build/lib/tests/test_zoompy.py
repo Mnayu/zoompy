@@ -3,5 +3,5 @@ from zoompy import zoompy
 import pytest
 
 def test_version():
-    assert __version__ == '0.1.3'
+    assert __version__ == '1.0.0'
 

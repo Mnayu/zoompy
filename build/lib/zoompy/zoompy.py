@@ -174,7 +174,7 @@ def results(rounds=None):
     results = pd.DataFrame(results)
     return results
 
-def driver_Standings(rounds=None):
+def driver_standings(rounds=None):
     driver_standings = {'season': [],
                     'round':[],
                     'driver': [],
