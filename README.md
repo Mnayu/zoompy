@@ -1,5 +1,5 @@
 
-Zoompy is a Python wrapper for calling the Ergast API, to get data related to Formula 1
+Zoompy is a Python wrapper for calling the Ergast API, to get data related to Formula 1. It can be used to get the races, results, driver standings, constructors standings and qualifying results from any year or from a custom duration
 
 ## Installation
 
@@ -10,20 +10,30 @@ pip install zoompy==0.1.3
 ```
 
 ## Usage
-
-### Obtaining Lists of Drivers 
+#### To obtain any of the data it is neccesary to first obtain the races in that particular time frame and then get the rounds in those season(s).
+### Obtaining Lists of Races
 ```python
 zoompy.races(start_year,end_year)
 
 # To obtain races from 2013
 zoompy.races(2020,2021)
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+```
+### Obtaining Rounds
+```python
+races = zoompy.races(2020,2021)
+
+rounds = zoompy.get_rounds(races)
 
 ```
+### Obtaining Results
+```python
+races = zoompy.races(2020,2021)
 
+rounds = zoompy.get_rounds(races)
+
+results= zoompy.results(rounds)
+
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
