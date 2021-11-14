@@ -40,7 +40,7 @@ races = zoompy.races(2020,2021)
 
 rounds = zoompy.get_rounds(races)
 
-d_standings= zoompy.driver_Standings(rounds)
+d_standings= zoompy.driver_standings(rounds)
 
 ```
 ### Obtaining Constructor Standing
