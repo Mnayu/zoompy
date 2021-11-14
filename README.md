@@ -40,7 +40,7 @@ races = zoompy.races(2020,2021)
 
 rounds = zoompy.get_rounds(races)
 
-results= zoompy.driver_standings(rounds)
+d_standings= zoompy.driver_standings(rounds)
 
 ```
 ### Obtaining Constructor Standing
@@ -49,7 +49,7 @@ races = zoompy.races(2020,2021)
 
 rounds = zoompy.get_rounds(races)
 
-results= zoompy.constructor_standings(rounds)
+c_standings= zoompy.constructor_standings(rounds)
 
 ```
 ### Obtaining Qualifying data
