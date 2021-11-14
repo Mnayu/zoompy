@@ -16,9 +16,14 @@ pip install zoompy==0.1.3
 zoompy.races(start_year,end_year)
 
 # To obtain races from 2013
-zoompy.races(2013,2014)
+zoompy.races(2020,2021)
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ```
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
